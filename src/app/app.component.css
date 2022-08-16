@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  padding: 40px;
+  margin: 20px;
+}
+.header > h1 {
+  font-size: 40px;
+  color: white;
+  font-family: "Rubik Distressed";
+  letter-spacing: 2px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 500px;
+}
+.task > input {
+  height: 3rem;
+  width: 26.5rem;
+  outline: none;
+  border-radius: 10px;
+  padding: 18px;
+  font-size: 17px;
+  color: grey;
+  letter-spacing: 1px;
+  font-family: "Aboreto";
+}
+.task > input:focus {
+  box-shadow: -2px 2px 6px white;
+}
+.task > button {
+  margin-left: 10px;
+  height: 3rem;
+  width: 4rem;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+}
+.task > button:hover {
+  background-color: grey;
+}
+.output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-size: 20px;
+  color: white;
+  font-family: "Aboreto";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+li > button {
+  margin-left: 10px;
+  height: 3rem;
+  width: 4rem;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+}
